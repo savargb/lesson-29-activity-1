@@ -4,7 +4,7 @@ function clearscreen() {
 
 function setScreenValue(value) {
     const r = document.getElementById("result");
-    if (r.value==="Enter an expression" || r.value==="Invalid expression" r.value="")
+    if (r.value==="Enter an expression" || r.value==="Invalid expression") r.value="")
         r.value += value;
 }
 
